@@ -16,6 +16,7 @@ body {
     left: 30%;
     -webkit-transform: translate(-10%, -30%);
     transform: translate(-10%, -30%);
+    animation: fadeInAnimation ease-in 5s;
 }
 
 img {
@@ -23,10 +24,22 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    animation: fadeInAnimationLogo ease-in 5s;
 }
 
 h1 {
     font-family: 'Courier New', monospace;
     font-weight: 900;
     font-size: 6vh;
+}
+
+@keyframes fadeInAnimationLogo {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeInAnimation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
