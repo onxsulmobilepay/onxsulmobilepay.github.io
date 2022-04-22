@@ -1,0 +1,30 @@
+body {
+    background-color: #0085ca;
+}
+
+#img_placeholder {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#title {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Courier New', monospace;
+    font-weight: 900;
+}
